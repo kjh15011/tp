@@ -126,7 +126,6 @@ void loop()
 void setupSerial() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
-  Serial.println("Serial Connected");
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void setupEthernet() {
